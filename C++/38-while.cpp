@@ -15,6 +15,6 @@ int main()
      }
      i++;
    }
-   cout << ("\n\nThe sum : " << sum << "\n";
+   cout << "\n\nThe sum : " << sum << "\n";
 }
 

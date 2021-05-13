@@ -13,5 +13,5 @@ int main()
        sum+=i;
      }
    }
-   cout << ("\n\nThe sum : " << sum << "\n";
+   cout << "\n\nThe sum : " << sum << "\n";
 }

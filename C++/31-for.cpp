@@ -1,6 +1,8 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
-void main()
+
+int main()
 {
     int n,i,r,sum,x;
 

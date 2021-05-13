@@ -5,8 +5,8 @@ int main()
 {
     int n,r,sum=0,t;
 
-    printf("Input a number: ");
-    scanf("%d",&n);
+    cout << "Input a number: ";
+    cin >> n;
     t=n;
     while(n!=0)
     {

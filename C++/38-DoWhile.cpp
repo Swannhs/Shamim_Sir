@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int i, sum=0;
-    printf("The Numbers are: \n");
+    cout << "The Numbers are: \n";
     i=101;
     do
     {

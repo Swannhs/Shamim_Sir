@@ -1,5 +1,7 @@
-#include<stdio.h>
-void main()
+#include<iostream>
+using namespace std;
+
+int main
 {
     int n,pro=1,m;
     cout << "Enter a number:";
