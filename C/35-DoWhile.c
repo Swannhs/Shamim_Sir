@@ -1,36 +1,34 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int num,i,f,r,sum,temp;
+    int num, i, f, r, sum, temp;
     int max;
     printf("Enter maximum range: ");
-    scanf("%d",&max);
+    scanf("%d", &max);
     printf("Strong numbers in given range are: ");
-    num=1;
+    num = 1;
     do
     {
         temp = num;
-        sum=0;
-        while(temp)
+        sum = 0;
+        while (temp)
         {
-            i=1;
-            f=1;
-            r=temp%10;
-            while(i<=r)
+            i = 1;
+            f = 1;
+            r = temp % 10;
+            while (i <= r)
             {
-                f=f*i;
+                f = f * i;
                 i++;
             }
-            sum=sum+f;
-            temp=temp/10;
+            sum = sum + f;
+            temp = temp / 10;
         }
 
-        if(sum==num)
-            printf("%d ",num);
-            num++;
+        if (sum == num)
+            printf("%d ", num);
+        num++;
 
-    }
-    while( num <= max) ;
+    } while (num <= max);
     return 0;
 }
-
